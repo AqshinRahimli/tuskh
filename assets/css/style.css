@@ -1,0 +1,90 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+text-decoration: none;
+list-style-type: none;
+font-family: sans-serif;
+}
+body{
+    background-color: gray;
+   
+}
+.body{
+width: 460px;
+height: 100px;
+border-radius: 5px;
+padding: 10px;
+background-color: #fff;
+}
+
+.carts{
+    padding: 80px;
+  }
+
+.carts .head{
+   width: 250px;
+}
+
+ .head{
+ width: 100%;
+  border-radius: 5px;
+  position: relative;
+}
+
+.icons{
+    width: 90px;
+    height: 45px;
+    border-radius: 15px;
+    background-color: #fff;
+    position: absolute;
+    bottom: 40px;
+    left: 335px;
+    padding: 8px;
+    font-size: 25px;
+    text-align: center;
+    color: gold;
+}
+.icons .crown, .gem{
+    display:inline
+}
+.icons .gem{
+    color: red;
+}
+
+.heard{
+    position: absolute;
+    top: 20px;
+    left: 390px;
+    color: #fff;
+    font-size: 40px;
+}
+
+.salon{
+    width: 80px;
+    height: 40px;
+    color: #fff;
+    background-color: blue;
+    border-radius: 15px;
+    padding: 7px 14px;
+    position: absolute;
+    bottom: 45px;
+    left: 45px;
+    text-align: center;
+}
+
+
+.body{
+background-color:#fff;
+color:black;
+position: absolute;
+font-size: 18px;
+}
+.body .price{
+font-weight: 700;
+
+}
+.date{
+    font-size: 15px;
+    color: grey;
+}
